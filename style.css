@@ -3,3 +3,16 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* conatiner  */
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.container-center{
+max-width: 650px;
+margin: auto;
+}
