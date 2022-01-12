@@ -8,6 +8,11 @@ body{
     --primary-color: #EF5753;
 }
 
+hr{
+    margin: 1.5rem 0rem;
+}
+
+
 /* conatiner  */
 
 .container{
@@ -25,6 +30,7 @@ margin: auto;
 /* links */
 
 .link{
+    cursor: pointer;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -37,5 +43,20 @@ margin: auto;
 }
 
 .link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* list  */
+
+.list-non-bullet{
+    list-style: none;
+
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 
 }
