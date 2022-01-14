@@ -1,114 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component library</title>
-
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>
-    <h1>Abhijit's component library</h1>
-    <p>
-      I am atteding neog camp and i want to make a library which will look good
-      on all of my projects.
-    </p>
-
-    <hr />
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>
-      This is normal text (Lorem ipsum dolor sit, amet consectetur adipisicing
-      elit. Soluta quos libero illo, hic et quaerat accusantium, amet explicabo
-      tenetur itaque eos asperiores blanditiis)
-    </p>
-
-    <small> this is relatively smaller text </small>
-
-    <hr />
-
-    <h2>@container</h2>
-
-    <h3>Fluid Container</h3>
-
-    <div class="container">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eos
-      delectus aspernatu
-    </div>
-
-    <h3>Center Container</h3>
-
-    <div class="container container-center">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eos
-      delectus aspernatu
-    </div>
-
-    <hr />
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="/"> Primary link</a>
-    <a class="link link-secondary" href="/"> Secondary link</a>
-
-    <hr />
-
-    <h2>@list</h2>
-
-    <h3>Unordered List</h3>
-    <p>This list will not have the bullet</p>
-
-    <ul class="list-non-bullet">
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Abhijit Ghosh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- navbar  -->
+  <nav class="navigation container">
+    <div class="nav-brand">Abhijit Ghosh</div>
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class="link link-active" href="/">Home</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/projects.html">Projects</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="/blogs.html">Blog</a>
+      </li>
     </ul>
+  </nav>
 
-    <h3>Unordered inline list</h3>
+    <!-- header  -->
 
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">Inline item one</li>
-      <li class="list-item-inline">Inline item Two</li>
-      <li class="list-item-inline">Inline item Three</li>
-      <li class="list-item-inline">Inline item Four</li>
-    </ul>
-
-    <h3>Reverse order list</h3>
-
-    <ol reversed>
-      <li>milk</li>
-      <li>chicken</li>
-      <li>banana</li>
-      <li>egg</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
-    <nav class="navigation container">
-      <div class="nav-brand">iamBrand</div>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link link-active" href="/">Home</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">Products</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">About</a>
-        </li>
-      </ul>
-    </nav>
-
-    <hr />
-
-    <h2>@header</h2>
+    
     <header class="hero">
       <img class="hero-img" src="images/hero.svg" />
       <h1 class="hero-heading">
@@ -117,37 +35,45 @@
       </h1>
     </header>
 
-    <hr />
-
-    <h2>@Sections</h2>
+    <!-- section  -->
+        <!-- OFF WHITE SECTION  -->
+    <section class="section ow">
+      <div class="container container-center">
+        <h1> Technologies </h1>
+        <p>i am good at blaa... blaa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus quibusdam commodi ipsam atque velit odio excepturi consequuntur, qui vero tempore perferendis adipisci.</p>
+      </div>
+    </section>
+     
+    <!-- WHITE SECTION  -->
 
     <section class="section">
       <div class="container container-center">
-        <h1>White section</h1>
-        <p>This is will have white background</p>
+        <h1>Projects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus dolorem veniam id vero animi! Vitae voluptatum atque ut facilis eius tempore delectus eligendi! Cupiditate, aut numquam. Amet rem voluptas molestias?</p>
+        <a class="link link-primary" href="/"> See Projects</a>
       </div>
     </section>
 
-    <section class="section ow">
+     <!-- OFF WHITE SECTION  -->
+     <section class="section ow">
       <div class="container container-center">
-        <h1>Off-white section</h1>
-        <p>This is will have grey backgroun</p>
+        <h1> Blogs </h1>
+        <p>i am good at blaa... blaa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus quibusdam commodi ipsam atque velit odio excepturi consequuntur, qui vero tempore perferendis adipisci.</p>
+        <a class="link link-secondary" href="/"> Read blogs</a>
       </div>
     </section>
 
-    <hr />
+    <!-- footer  -->
 
-    <h2>@Footer</h2>
-
+    
     <footer class="footer">
-      <div class="footer-header">Some small heading inside the footer</div>
+      <div class="footer-header">Connect with me socialy</div>
       <ul class="social-links list-non-bullet ">
-        <li class="list-item-inline"><a class="link" href="">Social one</a></li>
-        <li class="list-item-inline"><a class="link" href=""> Social three</a></li>
-        <li class="list-item-inline"><a class="link" href=""> Social two</a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/abhijitgh25">Twitter</a></li>
+        <li class="list-item-inline"><a class="link" href="https://github.com/abhiavtar"> Github</a></li>
+        <li class="list-item-inline"><a class="link" href="https://linkedin.com/in/abhijit-ghosh-a3805511a"> Linkedin</a></li>
       </ul>
     </footer>
 
-    <!-- <div style="height: 30vh"></div> -->
-  </body>
+</body>
 </html>
