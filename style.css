@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 
 :root {
@@ -95,6 +96,7 @@ hr {
 }
 
 .hero .hero-heading {
+  text-align: center;
   padding-top: 1rem;
   color: var(--dark-gray);
 }
@@ -112,4 +114,22 @@ hr {
 
 .ow{
     background-color: var(--off-white-color);
+}
+
+/* footer */
+
+.footer{
+     background-color: var(--primary-color);
+     padding: 2rem 1rem;
+     text-align: center;
+     color: white;
+     border-top-right-radius: 1rem;
+}
+
+.footer .link{
+  color: white;
+}
+
+.footer .ul{
+  padding-inline-start: 0px;
 }
